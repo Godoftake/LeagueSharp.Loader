@@ -48,8 +48,8 @@ namespace LeagueSharp.Loader.Class
         public static string UpdateZip = Path.Combine(Directories.CoreDirectory, "update.zip");
         public static string SetupFile = Path.Combine(Directories.CurrentDirectory, "LeagueSharp-update.exe");
         public static MainWindow MainWindow;
-        public static bool Updating = false;
-        public static bool CheckedForUpdates = false;
+        public static bool Updating = true;
+        public static bool CheckedForUpdates = true;
 
         [DataContract]
         internal class UpdateInfo
